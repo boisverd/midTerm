@@ -1,0 +1,1469 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <script src="https://cdn-shared.altium.com/production/altium-user/index.min.js"></script>
+    <meta charset="utf-8" />
+<style>/* @see https://github.com/aFarkas/lazysizes#broken-image-symbol */.js img.lazyload:not([src]) { visibility: hidden; }/* @see https://github.com/aFarkas/lazysizes#automatically-setting-the-sizes-attribute */.js img.lazyloaded[data-sizes=auto] { display: block; width: 100%; }/* Transition effect. */.js .lazyload, .js .lazyloading { opacity: 0; }.js .lazyloaded { opacity: 1; -webkit-transition: opacity 2000ms; transition: opacity 2000ms; }</style>
+<link rel="canonical" href="https://resources.altium.com/p/using-draftsman-create-pcb-fabrication-drawing" />
+<link rel="image_src" href="https://resources.altium.com/sites/default/files/blogs/Using%20Draftsman%20to%20Create%20a%20PCB%20Fabrication%20Drawing-81209.jpg" />
+<meta name="description" content="Download a PCB fabrication drawing example that shows all the important information you should include in your Draftsman document." />
+<meta name="abstract" content="Download a PCB fabrication drawing example that shows all the important information you should include in your Draftsman document." />
+<meta name="keywords" content="Design Outputs" />
+<meta property="og:site_name" content="Altium" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://resources.altium.com/p/using-draftsman-create-pcb-fabrication-drawing" />
+<meta property="og:title" content="Using Draftsman to Create a PCB Fabrication Drawing" />
+<meta property="og:description" content="Download a single Draftsman document that highlights the features and functionality available to you when creating an order form" />
+<meta property="og:image:url" content="https://resources.altium.com/sites/default/files/styles/opengraph/public/blogs/Using%20Draftsman%20to%20Create%20a%20PCB%20Fabrication%20Drawing-81209.jpg?itok=FWgaM5lj" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="1353" />
+<meta property="og:updated_time" content="2022-12-21" />
+<meta property="og:image:alt" content="draftsman_cover" />
+<meta property="article:published_time" content="2021-11-03" />
+<meta property="article:modified_time" content="2022-12-21" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="Download a PCB fabrication drawing example that shows all the important information you should include in your Draftsman document." />
+<meta name="twitter:site" content="@altium" />
+<meta name="twitter:title" content="Using Draftsman to Create a PCB Fabrication Drawing" />
+<meta name="twitter:site:id" content="38044199" />
+<meta name="twitter:url" content="https://resources.altium.com/p/using-draftsman-create-pcb-fabrication-drawing" />
+<meta name="twitter:image:alt" content="draftsman_cover" />
+<meta name="twitter:image" content="https://resources.altium.com/sites/default/files/blogs/Using%20Draftsman%20to%20Create%20a%20PCB%20Fabrication%20Drawing-81209.jpg" />
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!--
+<PageMap>
+  <DataObject type="document">
+    <Attribute name="space">resources</Attribute>
+  </DataObject>
+</PageMap>
+-->
+<script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Article",
+            "headline": "Using Draftsman to Create a PCB Fabrication Drawing",
+            "name": "Using Draftsman to Create a PCB Fabrication Drawing",
+            "about": [
+                "Design Outputs",
+                "tofu - Top of Funnel",
+                "Altium Designer"
+            ],
+            "description": "Download a PCB fabrication drawing example that shows all the important information you should include in your Draftsman document.",
+            "image": {
+                "@type": "ImageObject",
+                "representativeOfPage": "False",
+                "url": "https://resources.altium.com/sites/default/files/blogs/Using%20Draftsman%20to%20Create%20a%20PCB%20Fabrication%20Drawing-81209.jpg"
+            },
+            "datePublished": "2021-11-03",
+            "dateModified": "2022-12-21",
+            "isAccessibleForFree": "True",
+            "author": {
+                "@type": "Person",
+                "@id": "https://resources.altium.com/experts/zachariah-peterson",
+                "name": "Zachariah Peterson",
+                "url": "https://resources.altium.com/experts/zachariah-peterson",
+                "logo": {
+                    "@type": "ImageObject",
+                    "representativeOfPage": "True",
+                    "url": "https://resources.altium.com/sites/default/files/styles/max_width_2600/public/user_pictures/headshot-small-350.jpg?itok=jOI_Tmrt",
+                    "width": "351",
+                    "height": "351"
+                }
+            },
+            "publisher": {
+                "@type": "Corporation",
+                "@id": "https://www.altium.com",
+                "name": "Altium Limited",
+                "url": "https://www.altium.com",
+                "sameAs": "https://en.wikipedia.org/wiki/Altium",
+                "logo": {
+                    "@type": "ImageObject",
+                    "representativeOfPage": "False",
+                    "url": "https://www.altium.com/sites/all/themes/altium/logo.png"
+                }
+            },
+            "mainEntityOfPage": "https://resources.altium.com/p/using-draftsman-create-pcb-fabrication-drawing"
+        }
+    ]
+}</script>
+<link rel="icon" href="/sites/default/files/favicon_0.ico" type="image/vnd.microsoft.icon" />
+<link rel="alternate" hreflang="en" href="https://resources.altium.com/p/using-draftsman-create-pcb-fabrication-drawing" />
+<link rel="alternate" hreflang="ko" href="https://resources.altium.com/kr/p/using-draftsman-create-pcb-fabrication-drawing" />
+<script>window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};</script>
+
+    <meta name="naver-site-verification" content="navera58d64f263d7a5cd264aceb5054727f4" />
+    <script src="https://cdn.optimizely.com/js/16602720088.js"></script>
+          <script>
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({'event': 'tagList','tagSlugs': 'altium-designer|design-documentation|guide-books|pcb-manufacturing|tofu'});
+      </script>
+        <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-5LFC7W');</script>
+    <!-- End Google Tag Manager -->
+    <script type="text/javascript" src="//cdn.bizible.com/scripts/bizible.js" async=""></script>
+
+    <title>Using Draftsman to Create a PCB Fabrication Drawing | Design Outputs</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_DfIk0kDE_97QqZBJr5TF4iiP6Rt7nG3gWSu-Jh5AKCY.css" />
+<link rel="stylesheet" media="all" href="https://cdn-shared.altium.com/production/navigation_new/dist/css/header.min.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_oac832S3aQch6ycKoMSFlgELzLhFX1jEdaUzb-y7CrE.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_mt1bojd1nZyjWOaR61Y7JMS_q9dXm9xecMEr4pLWPOo.css" />
+<link rel="stylesheet" media="all" href="//www.altium.com/altium-privacy-bar/public/css/index.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_EOOgbiM2zgAdLd8PVrgDAPSVqyDZeHX5j2MtnQmBvc4.css" />
+<link rel="stylesheet" media="all" href="https://cdn-shared.altium.com/production/altium-all-pages/dist/components/bCountdown/bCountdown.min.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_JTblabm1AlvyFG86YuTrkqnitTSHl09PNltYbrXdCUQ.css" />
+
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/594133440","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"altium_raven":{"ip":"45.44.229.119"},"raven":{"options":{"ignoreErrors":["SecurityError: Failed to read the \u0027contentDocument\u0027 property from \u0027HTMLIFrameElement\u0027: Blocked a frame with origin \\\u0022https:\/\/resources.altium.com\\\u0022 from accessing a cross-origin frame.","NetworkError: Failed to execute \u0027send\u0027 on \u0027XMLHttpRequest\u0027: Failed to load \u0027https:\/\/www.altium.com\/altium-cj\/event\u0027.","Unexpected token ."],"dsn":"https:\/\/c9f4b3bed7194b578b55114438ea1a97@o406350.ingest.sentry.io\/5303576","environment":"resources.altium.com","integrations":[],"autoSessionTracking":false}},"clientside_validation_jquery":{"validate_all_ajax_forms":2,"force_validate_on_blur":false,"messages":{"required":"This field is required.","remote":"Please fix this field.","email":"Please enter a valid email address.","url":"Please enter a valid URL.","date":"Please enter a valid date.","dateISO":"Please enter a valid date (ISO).","number":"Please enter a valid number.","digits":"Please enter only digits.","equalTo":"Please enter the same value again.","maxlength":"Please enter no more than {0} characters.","minlength":"Please enter at least {0} characters.","rangelength":"Please enter a value between {0} and {1} characters long.","range":"Please enter a value between {0} and {1}.","max":"Please enter a value less than or equal to {0}.","min":"Please enter a value greater than or equal to {0}.","step":"Please enter a multiple of {0}."}},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":[]},"placeholderSrc":"data:image\/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==","preferNative":false,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"statistics":{"data":{"nid":"594133440"},"url":"\/core\/modules\/statistics\/statistics.php"},"ajaxTrustedUrl":{"https:\/\/www.altium.com\/search":true},"user":{"uid":0,"permissionsHash":"36e6a89ce2148e95e1b32df718acf627e88390e06b0de2dabb852f38f534f24f"}}</script>
+<script src="/sites/default/files/js/js_09u_souYutt-0SrUPgcj8jSUjKSrkSGuYbOnB1y5Fns.js"></script>
+<script src="//go.altium.com/js/forms2/js/forms2.min.js"></script>
+<script src="//play.vidyard.com/embed/v4.js"></script>
+<script src="/sites/default/files/js/js_pJ7tzSwAa716RQF7-K8A8Z9QunVb5HShKgpEleArvl0.js"></script>
+
+      <script type="text/javascript">
+        (function() {
+          var didInit = false;
+          function initMunchkin() {
+            if(didInit === false) {
+              didInit = true;
+              if (window.Munchkin && typeof window.Munchkin !== 'undefined') {
+                Munchkin.init('817-SFW-071');
+              }
+            }
+          }
+          var s = document.createElement('script');
+          s.type = 'text/javascript';
+          s.async = true;
+          s.src = '//munchkin.marketo.net/munchkin.js';
+          s.onreadystatechange = function() {
+            if (this.readyState == 'complete' || this.readyState == 'loaded') {
+              initMunchkin();
+            }
+          };
+          s.onload = initMunchkin;
+          document.getElementsByTagName('head')[0].appendChild(s);
+        })();
+      </script>
+  </head>
+  <body class="path-node page-node-type-blogs i18n-en">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5LFC7W"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+        <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div class="outer-wrapper">
+  <div class="header-v2">
+    <div id="altium-navigation-header" class="header-v2__primary">
+    <div class="header-v2__container">
+      <a class="header-v2__ico header-v2__mobile-menu-btn" href>
+	      Mobile menu <span></span>
+      </a>
+      <div class="header-v2__logo">
+        <a href="https://www.altium.com" target="_blank">
+          <svg width="83" height="18" viewBox="0 0 83 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M21.4417 0L17.2225 17.1H21.995L26.2142 0H21.4417ZM29.9492 13.2231L31.4708 7.06154H33.4767L34.1683 4.15384H32.1625L33.2 0.138461H28.4275L24.9692 13.9154C24.6233 15.3 24.6925 16.2 25.315 16.6154C25.7992 17.0308 26.8367 17.2385 28.2892 17.1692C29.1192 17.1692 30.0183 17.1 30.9867 17.0308L31.6783 14.1231H30.9175C30.0875 14.2615 29.8108 13.9154 29.9492 13.2231ZM35.8975 4.15384L32.7158 17.1H37.4883L40.67 4.15384H35.8975ZM50.3533 4.15384L48.2783 12.7385C48.0017 13.7769 47.4483 14.2615 46.48 14.2615C45.5808 14.2615 45.235 13.7769 45.5117 12.7385L47.6558 4.15384H42.8833L40.4625 13.9846C40.1167 15.3692 40.3242 16.2692 40.9467 16.7538C41.5692 17.2385 42.3992 17.5154 43.4367 17.4461C45.1658 17.4461 46.5492 16.8231 47.4483 15.5769H47.5175L47.1717 17.1692H51.9442L55.1258 4.15384H50.3533ZM76.0142 4.5C75.3917 4.01538 74.4925 3.80769 73.3858 3.80769C72.625 3.80769 71.8642 3.94615 71.1725 4.22307C70.4117 4.5 69.72 5.05384 69.1667 5.81538C69.0283 5.12307 68.7517 4.63846 68.2675 4.29231C67.7833 3.94615 67.0225 3.80769 65.985 3.80769C64.2558 3.80769 62.8725 4.43077 61.9042 5.74615H61.835L62.25 4.15384H57.4775L54.2958 17.1H59.0683L61.2125 8.51538C61.4892 7.47692 62.0425 6.99231 63.0108 6.99231C63.91 6.99231 64.2558 7.47692 63.9792 8.51538L61.835 17.1H66.6075L68.7517 8.51538C69.0283 7.47692 69.6508 6.99231 70.55 6.99231C71.4492 6.99231 71.795 7.47692 71.5183 8.51538L69.4433 17.1H71.5183C73.04 17.1 74.4233 16.0615 74.7692 14.7461L76.5675 7.33846C76.775 5.95384 76.6367 4.98461 76.0142 4.5ZM12.7267 0C10.375 0.0692307 8.36917 1.38461 7.2625 3.39231L0 17.1H5.46417L6.77833 14.1231H10.8592L10.7208 17.1H16.185L15.5625 0H12.7267ZM11.0667 10.8692H8.23083L11.4817 3.73846L11.0667 10.8692Z"
+              fill="white"/>
+            <path d="M83 15.9923C83 17.1692 82.1008 18 80.9942 18C79.8875 18 78.9883 17.1692 78.9883 15.9923C78.9883 14.8154 79.8875 13.9846 80.9942 13.9846C82.1008 14.0538 83 14.8846 83 15.9923ZM82.5158 15.9923C82.5158 15.0923 81.8933 14.4 80.9942 14.4C80.095 14.4 79.4725 15.0231 79.4725 15.9923C79.4725 16.8923 80.095 17.5154 80.9942 17.5154C81.8933 17.5846 82.5158 16.9615 82.5158 15.9923ZM80.9942 15.0231C81.4783 15.0231 81.755 15.2308 81.755 15.6462C81.755 15.9231 81.6167 16.1308 81.4092 16.2L81.8933 16.9615H81.5475L81.1325 16.2692H80.8558V16.9615H80.51V15.0231H80.9942ZM81.0633 15.9923C81.2708 15.9923 81.4092 15.8538 81.4092 15.7154C81.4092 15.5077 81.2708 15.4385 81.0633 15.4385H80.7175V16.0615H81.0633V15.9923Z"
+              fill="white"/>
+          </svg>
+        </a>
+      </div>
+        <nav class="header-v2__nav">
+    <ul>
+                                              
+        <li class="header-v2__inner-lvl">
+                                    <a href="">PCB Design<div class="header-v2__inner-lvl-ico"><span></span></div></a>            
+                          
+                              <div class="header-v2__nav__lvl2">
+                  <div class="header-v2__nav__col">
+                    <ul>
+                                                                                              <li>
+                        <a href="https://www.altium.com/altium-designer/">
+                              Altium Designer
+
+                                                              <span class="header-v2__desc">World’s Most Popular PCB Design Software</span></a>                        </li>
+                                                                                              <li>
+                        <a href="https://www.altium.com/circuitstudio/">
+                              CircuitStudio
+
+                                                              <span class="header-v2__desc">Entry Level, Professional PCB Design Tool</span></a>                        </li>
+                                                                                              <li>
+                        <a href="https://www.altium.com/circuitmaker">
+                              CircuitMaker
+
+                                                              <span class="header-v2__desc">Free PCB design for makers, open source and non-profits</span></a>                        </li>
+                                                                                              <li class="header-v2__top-separator">
+                        <a href="https://www.altium.com/altium-designer-for-you">
+                              Why Switch to Altium
+
+                                                              <span class="header-v2__desc">See why and how to switch to Altium from other PCB design tools</span></a>                        </li>
+                                          </ul>
+                  </div>
+                </div>
+                                            </li>
+                                              
+        <li class="header-v2__inner-lvl">
+                                    <a href="">Solutions<div class="header-v2__inner-lvl-ico"><span></span></div></a>            
+                          
+                              <div class="header-v2__nav__lvl2">
+                  <div class="header-v2__nav__col">
+                    <ul>
+                                                                                              <li>
+                        <a href="https://www.altium.com/altium-nexus">
+                              For Enterprise
+
+                                                              <span class="header-v2__desc">The Last Mile of Digital Transformation</span></a>                        </li>
+                                                                                              <li>
+                        <a href="https://www.altium.com/octopart">
+                              For Parts and Data
+
+                                                              <span class="header-v2__desc">Extensive, Easy-to-Use Search Engine for Electronic Parts</span></a>                        </li>
+                                          </ul>
+                  </div>
+                </div>
+                                            </li>
+                                              
+        <li>
+                                    <a href="https://www.altium.com/altium-365">Altium 365</a>            
+                              </li>
+                                              
+        <li class="header-v2__inner-lvl">
+                                    <a href="">Resources &amp; Support<div class="header-v2__inner-lvl-ico"><span></span></div></a>            
+                          
+                              
+                                                                                                                                                                                                                                                                                                                                                                                                                                
+                
+                <div class="header-v2__nav__lvl2 header-v2_pos-right _type-4-cols">
+                                      <div class="header-v2__nav__col">
+                                              <div class="header-v2__title">Explore Products</div>
+                        <ul>
+                                                      <li>
+                              <a href="https://www.altium.com/free-trials">Free Trials</a>
+                                                          </li>
+                                                      <li>
+                              <a href="https://www.altium.com/products/downloads">Downloads</a>
+                                                          </li>
+                                                      <li>
+                              <a href="https://www.altium.com/products/extensions">Extensions</a>
+                                                          </li>
+                                                  </ul>
+                                              <div class="header-v2__title">Free Altium 365 Tools</div>
+                        <ul>
+                                                      <li>
+                              <a href="https://www.altium.com/viewer/">Online PCB Viewer</a>
+                                                          </li>
+                                                  </ul>
+                                          </div>
+                                      <div class="header-v2__nav__col">
+                                              <div class="header-v2__title">Resources &amp; Support</div>
+                        <ul>
+                                                      <li>
+                              <a href="https://resources.altium.com">All Resources</a>
+                                                          </li>
+                                                      <li>
+                              <a href="https://www.altium.com/support">Support Center</a>
+                                                          </li>
+                                                      <li>
+                              <a href="https://www.altium.com/documentation/">Documentation</a>
+                                                          </li>
+                                                  </ul>
+                                          </div>
+                                      <div class="header-v2__nav__col">
+                                              <div class="header-v2__title">Altium Community</div>
+                        <ul>
+                                                      <li>
+                              <a href="https://forum.live.altium.com/">Forum</a>
+                                                          </li>
+                                                      <li>
+                              <a href="https://bugcrunch.live.altium.com/">Bug Crunch</a>
+                                                          </li>
+                                                      <li>
+                              <a href="https://bugcrunch.live.altium.com/#/Ideas/New">Ideas</a>
+                                                          </li>
+                                                  </ul>
+                                          </div>
+                                      <div class="header-v2__nav__col">
+                                              <div class="header-v2__title">Education Programs</div>
+                        <ul>
+                                                      <li>
+                              <a href="https://altium.com/training">Professional Training / Certification</a>
+                                                          </li>
+                                                      <li>
+                              <a href="https://education.altium.com/">University / College</a>
+                                                          </li>
+                                                      <li>
+                              <a href="https://education.upverter.com/">Secondary / High School</a>
+                                                          </li>
+                                                      <li>
+                              <a href="https://www.altium.com/webinars">Webinars</a>
+                                                          </li>
+                                                  </ul>
+                                          </div>
+                                  </div>
+                                            </li>
+                                              
+        <li class="header-v2__store">
+                      <a href="https://store.altium.com/" target="_blank"><span class="header-v2__store__ico"><span></span></span>
+                Store
+              </a>                  </li>
+                                              
+        <li class="header-v2__search">
+                      <a class="header-v2__search__show header-v2__ico header-v2__use-ico-search" href="https://gs.altium.com/index.php">
+                Search Open <span></span></a>
+                          <form class="header-v2__search__field-wrap" action="https://gs.altium.com/index.php" target="_blank">
+                <input class="header-v2__search__field" type="text" value="" name="keys">
+                <button class="header-v2__search__btn header-v2__ico header-v2__use-ico-search" type="submit">
+                  Search<span></span>
+                </button>
+                <a class="header-v2__search__close header-v2__ico header-v2__use-ico-close" href>
+                    Search Close <span></span></a>              </form>
+            
+                  </li>
+          </ul>
+  </nav>
+
+
+      
+      <div class="header-v2__user">
+        <div id="user-info-injectable-to-header" style="display: none;">
+        </div>
+
+        <a style="display: none;" class="header-v2__user__btn" href="https://live.altium.com/signin?prmGotoUrl=">Sign In</a>      </div>
+    </div>
+  </div>
+
+    <header class="s-header header-v2__element">
+      <div class="s-header__in">
+        
+  <div class="region am-container region-main-menu">
+    <a href="#" class="s-header__btn-mobile">
+      <span>
+        <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M9 1.47754L5 5.47754L1 1.47754" stroke="#353535" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <svg width="10" height="5" viewBox="0 0 10 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M1 4.5L5 0.5L9 4.5" stroke="#353535" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </span>
+      Design Outputs
+    </a>
+    <nav role="navigation" aria-labelledby="block-mainmenu-menu" id="block-mainmenu" class="block block-menu navigation s-header__nav menu--main-menu">
+            
+  <h2 class="visually-hidden" id="block-mainmenu-menu">Main menu</h2>
+  
+
+    <div class="s-header__menu-wrap">
+          
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="/" data-drupal-link-system-path="&lt;front&gt;">Home</a>
+              </li>
+                <li class="menu-item">
+        <a href="/pcb-design" data-drupal-link-system-path="taxonomy/term/4478">PCB Design</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span title="Software by Altium">Software</span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/altium-365" data-drupal-link-system-path="taxonomy/term/4430">Altium 365	</a>
+              </li>
+                <li class="menu-item">
+        <a href="/altium-designer" data-drupal-link-system-path="taxonomy/term/4431">Altium Designer</a>
+              </li>
+                <li class="menu-item">
+        <a href="/nexus">Enterprise Solutions</a>
+              </li>
+                <li class="menu-item">
+        <a href="/pdn-analyzer" data-drupal-link-system-path="taxonomy/term/4487">PDN Analyzer</a>
+              </li>
+                <li class="menu-item">
+        <a href="/upverter" data-drupal-link-system-path="taxonomy/term/4464">Upverter</a>
+              </li>
+          </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span>Popular Topics</span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/collaboration" data-drupal-link-system-path="taxonomy/term/4448">Collaboration</a>
+              </li>
+                <li class="menu-item">
+        <a href="/component-management" data-drupal-link-system-path="taxonomy/term/4449">Component Creation</a>
+              </li>
+                <li class="menu-item">
+        <a href="/design-data-management" data-drupal-link-system-path="taxonomy/term/4453">Data Management</a>
+              </li>
+                <li class="menu-item">
+        <a href="/design-documentation" data-drupal-link-system-path="taxonomy/term/4454">Design Outputs</a>
+              </li>
+                <li class="menu-item">
+        <a href="/ecad-mcad" data-drupal-link-system-path="taxonomy/term/4459">ECAD/MCAD</a>
+              </li>
+                <li class="menu-item">
+        <a href="/high-density-interconnect-pcb" data-drupal-link-system-path="taxonomy/term/4537">HDI Design</a>
+              </li>
+                <li class="menu-item">
+        <a href="/high-speed-design" data-drupal-link-system-path="taxonomy/term/4468">High Speed Design</a>
+              </li>
+                <li class="menu-item">
+        <a href="/multiple-board-design" data-drupal-link-system-path="taxonomy/term/4538">Multi-Board</a>
+              </li>
+                <li class="menu-item">
+        <a href="/pcb-layout" data-drupal-link-system-path="taxonomy/term/4540">PCB Layout</a>
+              </li>
+                <li class="menu-item">
+        <a href="/pcb-routing" data-drupal-link-system-path="taxonomy/term/4482">PCB Routing</a>
+              </li>
+                <li class="menu-item">
+        <a href="/pcb-supply-chain" data-drupal-link-system-path="taxonomy/term/4483">PCB Supply Chain</a>
+              </li>
+                <li class="menu-item">
+        <a href="/power-integrity" data-drupal-link-system-path="taxonomy/term/4490">Power Integrity</a>
+              </li>
+                <li class="menu-item">
+        <a href="/rf-pcb-design" data-drupal-link-system-path="taxonomy/term/4539">RF Design</a>
+              </li>
+                <li class="menu-item">
+        <a href="/rigid-flex" data-drupal-link-system-path="taxonomy/term/4496">Rigid Flex</a>
+              </li>
+                <li class="menu-item">
+        <a href="/schematic-capture" data-drupal-link-system-path="taxonomy/term/4498">Schematic Capture</a>
+              </li>
+                <li class="menu-item">
+        <a href="/signal-integrity" data-drupal-link-system-path="taxonomy/term/4500">Signal Integrity</a>
+              </li>
+                <li class="menu-item">
+        <a href="/simulation-and-analysis" data-drupal-link-system-path="taxonomy/term/4501">Simulation</a>
+              </li>
+          </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span>Resources</span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/news" data-drupal-link-system-path="taxonomy/term/4475">Engineering News</a>
+              </li>
+                <li class="menu-item">
+        <a href="/guide-books" data-drupal-link-system-path="taxonomy/term/4467">Guide Books</a>
+              </li>
+                <li class="menu-item">
+        <a href="/newsletter" data-drupal-link-system-path="taxonomy/term/4476">Newsletters</a>
+              </li>
+                <li class="menu-item">
+        <a href="/podcast" target="_self" data-drupal-link-system-path="taxonomy/term/4489">Podcasts</a>
+              </li>
+                <li class="menu-item">
+        <a href="/projects" title="Altium Designer Projects" data-drupal-link-system-path="taxonomy/term/4493">Projects</a>
+              </li>
+                <li class="menu-item">
+        <a href="/webinars" data-drupal-link-system-path="taxonomy/term/4510">Webinars</a>
+              </li>
+                <li class="menu-item">
+        <a href="/whitepapers" data-drupal-link-system-path="taxonomy/term/4511">Whitepapers</a>
+              </li>
+          </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="https://www.altium.com/free-trials" title="Explore Free Trials of PCB Design Software">FREE TRIALS</a>
+              </li>
+          </ul>
+  
+
+
+      </div>
+</nav>
+<div id="block-altiumsearchminblock" class="block block-altium-custom-search block-altium-search-min-block">
+  
+    
+      <div class="s-header__f-search"><div class="f-search _min"><form class="views-exposed-form bef-exposed-form" data-drupal-selector="views-exposed-form-altium-search-view-page-1" action="https://www.altium.com/search" method="get" id="views-exposed-form-altium-search-view-page-1" accept-charset="UTF-8">
+  <div class="form--inline clearfix">
+  <div class="_use-clear js-form-item form-item js-form-type-textfield form-type-textfield js-form-item-s form-item-s">
+      
+        <input data-drupal-selector="edit-s" data-msg-maxlength="This field field has a maximum length of 128." placeholder="Search" type="text" id="edit-s" name="s" value="" size="30" maxlength="128" class="form-text" />
+
+        </div>
+<input data-drupal-selector="edit-radio-nn" type="hidden" name="radio-nn" value="company" />
+<input data-drupal-selector="edit-checkbox-resources" type="hidden" name="checkbox-Resources" value="Resources" />
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input data-drupal-selector="edit-submit-altium-search-view" type="submit" id="edit-submit-altium-search-view" value="Search" class="button js-form-submit form-submit" />
+</div>
+
+</div>
+
+</form>
+</div>
+</div>
+  </div>
+
+  </div>
+
+      </div>
+    </header>
+  </div>
+
+  
+
+  <div class="inner-wrapper">
+    <div class="content-wrapper">
+      
+
+      
+        <div class="region region-content">
+    <div id="block-altium-content" class="block block-system block-system-main-block">
+  
+    
+      <section  data-history-node-id="594133440" role="article" about="/p/using-draftsman-create-pcb-fabrication-drawing" class="section section_gap_md">
+  <div class="am-container">
+    <div id="block-altiumbreadcrumbblock" class="block block-altium-breadcrumb block-altium-breadcrumb-block">
+  
+    
+                        <div class="breadcrumb ">
+                          <a href="/">Home</a>
+              <span class="breadcrumb__ico"></span>
+                          <a href="/design-documentation">Design Outputs</a>
+              <span class="breadcrumb__ico"></span>
+            
+                          <span>Using Draftsman to Create a PCB Fabrication Drawing</span>
+                      </div>
+        
+  </div>
+
+                            
+    <div class="content-wrapper__inner _size-md">
+      <div class="content-wrapper__main">
+        <!-- ty_block_mobile_begin -->
+
+        <!-- ty_block_mobile_end -->
+        <div class="b-post">
+          <div class="b-post__body">
+            <h1><span class="field field--name-title field--type-string field--label-hidden">Using Draftsman to Create a PCB Fabrication Drawing</span>
+</h1>
+
+                          <div class="b-author-min b-post__b-author-min">
+                                  <div class="b-author-min__img">
+                                          <img src="https://resources.altium.com/sites/default/files/styles/medium/public/user_pictures/headshot-small-350.jpg?itok=I-ztzpal" alt="">
+                                      </div>
+                                      <a href="/experts/zachariah-peterson" class="b-author-min__name">
+                      Zachariah Peterson
+                    </a>
+                                    <div class="b-author-min__date">
+                    |&nbsp Created: November 3, 2021
+                                          &nbsp|&nbsp
+                      <strong>
+                        Updated: November 6, 2022
+                      </strong>
+                                      </div>
+                                      <div class="b-author-min__pdf">
+                      |&nbsp
+                      <a href="/sites/default/files/2022-04/OrderForm-updated.pdf" target="_blank">
+                        <img src="/themes/custom/altium/dist/images/ico/ico-document.svg" alt="">
+                        Open as PDF
+                      </a>
+                    </div>
+                                                </div>
+            
+            <div class="b-post__media">
+                              
+           <picture>
+                  <source media="all and (min-width: 550px)" type="image/webp" data-srcset="/sites/default/files/styles/max_width_1300/public/blogs/Using%20Draftsman%20to%20Create%20a%20PCB%20Fabrication%20Drawing-81209.webp?itok=wEilKpAt 1x"/>
+              <source type="image/webp" data-srcset="/sites/default/files/styles/max_width_768/public/blogs/Using%20Draftsman%20to%20Create%20a%20PCB%20Fabrication%20Drawing-81209.webp?itok=jP2SGAZK 1x"/>
+              <source media="all and (min-width: 550px)" type="image/jpeg" data-srcset="/sites/default/files/styles/max_width_1300/public/blogs/Using%20Draftsman%20to%20Create%20a%20PCB%20Fabrication%20Drawing-81209.jpg?itok=wEilKpAt 1x"/>
+              <source type="image/jpeg" data-srcset="/sites/default/files/styles/max_width_768/public/blogs/Using%20Draftsman%20to%20Create%20a%20PCB%20Fabrication%20Drawing-81209.jpg?itok=jP2SGAZK 1x"/>
+                  <img width="800" height="902" src="/sites/default/files/styles/max_width_1300/public/blogs/Using%20Draftsman%20to%20Create%20a%20PCB%20Fabrication%20Drawing-81209.jpg?itok=wEilKpAt" alt="draftsman_cover" typeof="foaf:Image" />
+
+  </picture>
+
+ 
+  
+                          </div>
+
+            
+             <div class="topics-list">
+<h2>Table of Contents</h2>
+
+<ul><li><a href="#what-goes-into-a-pcb-fabrication-drawing">What Goes Into a PCB Fabrication Drawing?</a></li>
+	<li><a href="#general-description-stackup-table-impedance-table">General Description, Stackup Table, Impedance Table</a></li>
+	<li><a href="#drill-drawing-drill-table-fabrication-notes">Drill Drawing, Drill Table, Fabrication Notes</a></li>
+	<li><a href="#gerber-layer-artwork">Gerber Layer Artwork</a></li>
+</ul></div>
+ 
+      
+
+
+            <div data-content-banner-area>
+              
+             <p>When you need to prepare a new design for manufacturing, one of the important docuements you'll need to produce at scale is a PCB fabrication drawing. This drawing shows all of the important information that workers on the line will need to understand the construction of a PCB. A fabrication drawing does more than show an image or rendering of the fabricated board, it also tells the fabrication house all of the requirements the fabricated PCB must meet in order to be accepted.</p>
+
+<p>The other benefit of a thorough and complete fabrication document is that it helps ensure your board can be produced at multiple manufacturers. By compiling a set of consistent requirements into a single location, you have a set of data you can give to any fabricator so they can quickly quote your board for production.</p>
+
+<p>The Draftsman feature in Altium Designer gives users a quick way to generate these drawings without the need for an external drafting application. The Draftsman tool automatically generates professional drawings with information pulled directly from your PcbDoc file. If you're unsure what you should include in your fabrication drawing, we've prepared a cheat sheet to help you get started. Keep reading to see all the information you can include in your PCB fabrication drawing.</p>
+
+<h2><a id="what-goes-into-a-pcb-fabrication-drawing">What Goes Into a PCB Fabrication Drawing?</a></h2>
+
+<p>Every PCB fabrication drawing needs to have some basic information that lists the requirements of your finished board. Some of these requirements are related to qualification, such as testing and performance metrics, while others concern physical construction of the PCB. Some of the primary information required to produce a fabrication drawing includes:</p>
+
+<ul><li>A rendering of each layer in the PCB stackup</li>
+	<li>A drill drawing with symbols assigned to each drill hole diameter</li>
+	<li>A table showing the PCB stackup, via transitions, material information</li>
+	<li>An impedance table that lists any controlled impedance requirements</li>
+	<li>A list of <a href="https://resources.altium.com/p/decoding-pcb-fabrication-notes">PCB fabrication notes</a></li>
+	<li>A summative table providing fabrication and performance requirements</li>
+	<li>Callouts with any important fabrication information, such as slots or special instructions</li>
+	<li>Title block with company and artist information</li>
+</ul><p>Including this information in a fabrication drawing PCB will help ensure your fabricator will have all the information they need to properly fabricate the PCB.</p>
+
+<h3><a id="general-description-stackup-table-impedance-table">General Description, Stackup Table, Impedance Table</a></h3>
+
+<p>To show some of the important information found in a PCB fabrication drawing, we created an example Draftsman document that highlights the available fabrication and documentation features available in Draftsman. The drawing below shows an example of what might be used as a cover sheet for a longer fabrication drawing PCB. This drawing contains a general description of the PCB, and some of the information a fabrication house might need to prepare to plan processing steps.</p>
+
+<p><a class="modal__zoom-btn" data-responsive-image-style="inline_responsive" data-target="#modal-zoom-screen-one" data-toggle="modal" href="#"><picture><source media="all and (min-width: 550px)" type="image/webp" data-srcset="/sites/default/files/styles/max_width_1300/public/inline-images/OrderForm-updated-1%20%281%29.webp?itok=1tIE4o0Z 1x"></source><source type="image/webp" data-srcset="/sites/default/files/styles/max_width_768/public/inline-images/OrderForm-updated-1%20%281%29.webp?itok=VPNms-Si 1x"></source><source media="all and (min-width: 550px)" type="image/jpeg" data-srcset="/sites/default/files/styles/max_width_1300/public/inline-images/OrderForm-updated-1%20%281%29.jpg?itok=1tIE4o0Z 1x"></source><source type="image/jpeg" data-srcset="/sites/default/files/styles/max_width_768/public/inline-images/OrderForm-updated-1%20%281%29.jpg?itok=VPNms-Si 1x"></source><img data-entity-type="file" data-entity-uuid="d9c30d15-714b-4559-91fc-ffbb03df2212" data-responsive-image-style="inline_responsive" loading="lazy" class="inline-responsive image-style-inline-responsive lazyload" width="1300" height="919" alt="OrderForm-updated" typeof="foaf:Image" data-src="/sites/default/files/styles/max_width_1300/public/inline-images/OrderForm-updated-1%20%281%29.jpg?itok=1tIE4o0Z" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /></picture></a></p>
+
+<p> </p>
+
+<p>An <a href="https://resources.altium.com/p/pcb-manufacturing-and-impedance-control-how-specify-your-requirements">impedance table</a> and the layer stack table are important for high speed PCBs that require controlled impedance verification. The fabrication house will use this information to select materials and verify impedances from a TDR mesurement on a test coupon in the event your desired material set is unavailable or does not produce the required impedance specification. The rest of the specifications in your general description will help plan out the rest of the fabrication and finishing process.</p>
+
+<h3><a id="drill-drawing-drill-table-fabrication-notes">Drill Drawing, Drill Table, Fabrication Notes</a></h3>
+
+<p>The following image shows a typical drill drawing and drill table, which includes drill hole sizes for plated and unplated holes. The finished (plated) hole size will normally include 1 mil plating, so the finished hole diameter will be about 2 mil smaller than value listed in the drill table. This page also contains a complete set of PCB fabrication notes that include important fabrication instructions and requirements. The fabrication notes provide may also include important testing procedures for specialty boards, as well as conformance requirements to relevant industry standards for the finished product.</p>
+<picture><source media="all and (min-width: 550px)" type="image/webp" data-srcset="/sites/default/files/styles/max_width_1300/public/inline-images/OrderForm-updated-2.webp?itok=rKWhz6Cd 1x"></source><source type="image/webp" data-srcset="/sites/default/files/styles/max_width_768/public/inline-images/OrderForm-updated-2.webp?itok=LG-gztRe 1x"></source><source media="all and (min-width: 550px)" type="image/png" data-srcset="/sites/default/files/styles/max_width_1300/public/inline-images/OrderForm-updated-2.png?itok=rKWhz6Cd 1x"></source><source type="image/png" data-srcset="/sites/default/files/styles/max_width_768/public/inline-images/OrderForm-updated-2.png?itok=LG-gztRe 1x"></source><img data-entity-type="file" data-entity-uuid="5cac11e7-4041-4690-a9db-5dcc1db9a2ab" data-responsive-image-style="inline_responsive" class="align-center inline-responsive image-style-inline-responsive lazyload" loading="lazy" width="3308" height="2339" alt="PCB fabrication drawing drill drawing" typeof="foaf:Image" data-src="/sites/default/files/styles/max_width_1300/public/inline-images/OrderForm-updated-2.png?itok=rKWhz6Cd" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /></picture><p> </p>
+
+<h3><a id="gerber-layer-artwork">Gerber Layer Artwork</a></h3>
+
+<p>The final image shown below shows an etch configuration for each layer. In drafting applications, these layers would normally be imported into a drawing from DXF files or Gerber files. If these layers are not exported correctly into a DXF format, there can be incorrect scaling or other drawing errors that cause the draft to have incorrect or missing etch information. Due to the very complex structure of etched layers in a PCB, the layers in the fabrication drawing, the Gerber files, and the PCB layout have to be compared in order to catch any errors. This is very time consuming and </p>
+
+<p>Instead of exporting DXF files or Gerbers, and then re-importing these into your drafting application, Draftsman will generate the drawing shown below automatically using the data from your PcbDoc file. Simply right-click anywhere in the document and select Place Fabrication View from the dropdown menu. The placed fabrication view can then be edited to select the desired scale and layer. The best practice is to arrnage these layres in a single page so that the fabrication team can check the panel order against the etch data in the fabrication view.</p>
+<picture><source media="all and (min-width: 550px)" type="image/webp" data-srcset="/sites/default/files/styles/max_width_1300/public/inline-images/OrderForm-updated-3.webp?itok=KMNRxpFj 1x"></source><source type="image/webp" data-srcset="/sites/default/files/styles/max_width_768/public/inline-images/OrderForm-updated-3.webp?itok=fuxLwvWX 1x"></source><source media="all and (min-width: 550px)" type="image/png" data-srcset="/sites/default/files/styles/max_width_1300/public/inline-images/OrderForm-updated-3.png?itok=KMNRxpFj 1x"></source><source type="image/png" data-srcset="/sites/default/files/styles/max_width_768/public/inline-images/OrderForm-updated-3.png?itok=fuxLwvWX 1x"></source><img data-entity-type="file" data-entity-uuid="b3f97d45-f5ac-4ec3-b2b8-d14a63cfe595" data-responsive-image-style="inline_responsive" class="align-center inline-responsive image-style-inline-responsive lazyload" loading="lazy" width="3308" height="2339" alt="PCB fabrication drawing layer etching" typeof="foaf:Image" data-src="/sites/default/files/styles/max_width_1300/public/inline-images/OrderForm-updated-3.png?itok=KMNRxpFj" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /></picture><p> </p>
+
+<p>A Draftsman document brings an elegant, yet powerful solution for creating fully customizable fabrication drawing PCBs quickly and easily. Everything you need for creating your PCB fabrication drawing - including PCB parameters, drilling and impedance tables, and PCB stackup layers - can be placed in a matter of minutes.</p>
+
+<p>When you’re ready to streamline your design and production workflow, use the world-class CAD features and automated PCB assembly drawing tools in <a href="https://www.altium.com/altium-designer">Altium Designer<sup>®</sup></a>. You and your team can create advanced designs and quickly prepare them for manufacturing while staying productive and efficient. When it's time to release your designs to production, use the complete set of release management features in the <a href="https://www.altium.com/altium-365">Altium 365™</a> platform to collaborate with your manufacturer. Everything you need to design and produce advanced electronics can be found in one software package.</p>
+
+<p>We have only scratched the surface of what is possible to do with Altium Designer on Altium 365. <a href="https://www.altium.com/altium-designer/free-trial">Start your free trial of Altium Designer + Altium 365 today</a>.</p>
+ 
+      
+
+            </div>
+
+            
+                          <div class="b-post__btn-wrap">
+                <a href="/sites/default/files/2022-04/OrderForm-updated.pdf" class="btn _pdf" target="_blank">
+                  <img src="/themes/custom/altium/dist/images/ico/ico-document.svg" alt="">
+                  Open as PDF
+                </a>
+              </div>
+            
+          </div>
+
+          
+
+          <div  class="b-links _use-bg">
+  <div class="b-links__wrap">
+    <div class="b-links__wrap__inner">
+                          
+             <a href="https://resources.altium.com/p/overview-pcb-design-output-files" target="_blank">Overview of PCB Design Output Files</a> 
+      
+
+      
+                          
+             <a href="https://resources.altium.com/p/generate-gerber-files-altium-designer-step-step-schematic-pcb" target="_blank">Generating Gerber Files</a> 
+      
+
+      
+                          
+             <a href="https://www.altium.com/altium-365/manufacturing" target="_blank">Push to Manufacturing with Altium 365</a> 
+      
+
+      
+                          
+             <a href="https://resources.altium.com/p/altium-outjob-files-vs-project-release-whats-difference" target="_blank">Project Release</a> 
+      
+
+      
+                          
+             <a href="https://www.altium.com/altium-designer/features/draftsman" target="_blank">Design Documentation Features in Altium Designer</a> 
+      
+
+      
+          </div>
+  </div>
+</div>
+
+
+                      <div class="b-post__b-author b-author">
+              <div class="b-author__img-wrap">
+                <div class="b-author__img">
+                                      <img src="https://resources.altium.com/sites/default/files/styles/medium/public/user_pictures/headshot-small-350.jpg?itok=I-ztzpal" alt="">
+                                  </div>
+                <h3>About Author</h3>
+              </div>
+
+              <div class="b-author__body">
+                <h3>About Author</h3>
+                <div class="b-author__desc">
+                  <p>
+                    
+             <p>Zachariah Peterson has an extensive technical background in academia and industry. He currently provides research, design, and marketing services to companies in the electronics industry. Prior to working in the PCB industry, he taught at Portland State University and conducted research on random laser theory, materials, and stability. His background in scientific research spans topics in nanoparticle lasers, electronic and optoelectronic semiconductor devices, environmental sensors, and stochastics. His work has been published in over a dozen peer-reviewed journals and conference proceedings, and he has written 2000+ technical articles on PCB design for a number of companies. He is a member of IEEE Photonics Society, IEEE Electronics Packaging Society, American Physical Society, and the Printed Circuit Engineering Association (PCEA). He previously served as a voting member on the INCITS Quantum Computing Technical Advisory Committee working on technical standards for quantum electronics, and he currently serves on the IEEE P3186 Working Group focused on Port Interface Representing Photonic Signals Using SPICE-class Circuit Simulators.</p>
+ 
+      
+
+                  </p>
+                </div>
+                <div class="b-author__link-wrap">
+                  <a href="/experts/zachariah-peterson"
+                     class="b-author__link">More content by Zachariah Peterson</a>
+                </div>
+              </div>
+            </div>
+          
+          
+
+          
+
+        </div>
+
+        <div class="views-element-container block recent-post block-views block-views-blockrecent-posts-block-1" id="block-views-block-recent-posts-block-1">
+  
+      <h2>Related Resources</h2>
+    
+  <div class="recent-post__slider-tiles slider-tiles">
+    <div class="slider-tiles__nav"></div>
+    <div class="b-tiles">
+              <div><div class="js-view-dom-id-1b6c2a5318ee32c5a3543157c1ddb27a5b1435221d46307ba4f2b329a50b108f">
+  
+  
+  
+
+  
+  
+  
+
+  <div class="b-tiles__items">
+          <div class="views-row"><div data-history-node-id="594133486" role="article" about="/p/overview-pcb-design-output-files" class="b-tiles__item">
+
+  <a href="/p/overview-pcb-design-output-files" class="b-tiles__link">
+    <span class="b-tiles__preview">
+
+              
+<span class="b-tiles__img">
+         <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="480" height="252" alt="PCB Design Output Files" loading="lazy" class="lazyload image-style-teasers-image" data-src="/sites/default/files/styles/teasers_image/public/blogs/Overview%20of%20PCB%20Design%20Output%20Files-77927.jpg?itok=NIPKNu2k" typeof="foaf:Image" />
+
+
+ 
+  </span>
+
+      
+      
+    </span>
+
+    <span class="b-tiles__body">
+      <span class="b-tiles__body-in">
+
+        
+        <span class="b-tiles__title">Overview of PCB Design Outputs and Fabrication Files</span>
+        
+
+        <span class="b-tiles__desc">
+          
+             Make sure you know which PCB design output files your fabricator and assembler need to ensure they can build your PCBA. 
+      
+
+        </span>
+      </span>
+      <span class="b-tiles__btn">
+        Read Article
+      </span>
+    </span>
+  </a>
+
+</div>
+</div>
+    <div class="views-row"><div data-history-node-id="420834372" role="article" about="/p/generate-gerber-files-altium-designer-step-step-schematic-pcb" class="b-tiles__item">
+
+  <a href="/p/generate-gerber-files-altium-designer-step-step-schematic-pcb" class="b-tiles__link">
+    <span class="b-tiles__preview">
+
+              
+<span class="b-tiles__img">
+         <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="480" height="251" alt="Generate Gerber Files in Altium Designer Step-by-Step from Schematic to PCB" loading="lazy" class="lazyload image-style-teasers-image" data-src="/sites/default/files/styles/teasers_image/public/blogs/Generate%20Gerber%20Files%20in%20Altium%20Designer%20Step-by-Step%20from%20Schematic%20to%20PCB-67963.jpg?itok=9qSnOr0F" typeof="foaf:Image" />
+
+
+ 
+  </span>
+
+      
+              <span class="b-tiles__mark">
+          <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+           <path
+             d="M8 0L10.7273 4.24616L15.6085 5.52786L12.4129 9.43384L12.7023 14.4721L8 12.64L3.29772 14.4721L3.5871 9.43384L0.391548 5.52786L5.27268 4.24616L8 0Z"
+             fill="#B7A372"/>
+          </svg>
+        </span>
+      
+    </span>
+
+    <span class="b-tiles__body">
+      <span class="b-tiles__body-in">
+
+        
+        <span class="b-tiles__title">How to Make PCB Gerber Files in Altium Designer Step-by-Step</span>
+        
+
+        <span class="b-tiles__desc">
+          
+             Once you've got your PCB layout finished and you're ready to start preparing for manufacturing, one of the critical steps is to create PCB Gerber files. These files are used by PCB manufacturers to prepare stencils for photoresist exposure and subsequent etching. When you're ready to create your Gerber files, you need the right set of CAM processor tools that can take data from your PCB layout. Altium Designer helps make the process for 
+      
+
+        </span>
+      </span>
+      <span class="b-tiles__btn">
+        Read Article
+      </span>
+    </span>
+  </a>
+
+</div>
+</div>
+    <div class="views-row"><div data-history-node-id="346527225" role="article" about="/p/the-top-3-dfm-problems-that-affect-every-pcb-design-pcb-design-tips-tricks-altium-audio-bites" class="b-tiles__item">
+
+  <a href="/p/the-top-3-dfm-problems-that-affect-every-pcb-design-pcb-design-tips-tricks-altium-audio-bites" class="b-tiles__link">
+    <span class="b-tiles__preview">
+
+              
+<span class="b-tiles__img">
+         <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="480" height="261" alt="The Top 3 DFM Problems That Affect Every PCB Design: PCB Design Tips &amp; Tricks - Altium Audio Bites" loading="lazy" class="lazyload image-style-teasers-image" data-src="/sites/default/files/styles/teasers_image/public/blogs/The%20Top%203%20DFM%20Problems%20That%20Affect%20Every%20PCB%20Design%3A%20PCB%20Design%20Tips%20%26amp%3B%20Tricks%20-%20Altium%20Audio%20Bites-50730.jpg?itok=zRG0LSJu" typeof="foaf:Image" />
+
+
+ 
+  </span>
+
+      
+      
+    </span>
+
+    <span class="b-tiles__body">
+      <span class="b-tiles__body-in">
+
+        
+        <span class="b-tiles__title">The Top 3 DFM Problems That Affect Every PCB Design: PCB Design Tips &amp; Tricks - Altium Audio Bites</span>
+        
+
+        <span class="b-tiles__desc">
+          
+             Altium Audio Bites, giving you bite-sized information that's easy to digest and apply to your everyday design tasks. From our PCB Design Tips &amp; Tricks audio series here is: The Top 3 DFM Problems That Affect Every PCB Design. All our audio series are from real PCB designers in the field, detailing their day to day problems and experiences. We hope you can learn from this as much as we have. Give it a listen and let us know what you think in the 
+      
+
+        </span>
+      </span>
+      <span class="b-tiles__btn">
+        Read Article
+      </span>
+    </span>
+  </a>
+
+</div>
+</div>
+    <div class="views-row"><div data-history-node-id="594133437" role="article" about="/p/using-draftsmans-create-pcb-assembly-drawing" class="b-tiles__item">
+
+  <a href="/p/using-draftsmans-create-pcb-assembly-drawing" class="b-tiles__link">
+    <span class="b-tiles__preview">
+
+              
+<span class="b-tiles__img">
+         <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="426" height="480" alt="draftsman_cover" loading="lazy" class="lazyload image-style-teasers-image" data-src="/sites/default/files/styles/teasers_image/public/blogs/Advantages%20of%20Using%20Draftsman%20to%20Create%20a%20PCB%20Assembly%20Drawing-81223.jpg?itok=RMALkFkF" typeof="foaf:Image" />
+
+
+ 
+  </span>
+
+      
+      
+    </span>
+
+    <span class="b-tiles__body">
+      <span class="b-tiles__body-in">
+
+        
+        <span class="b-tiles__title">Advantages of Using Draftsman to Create a PCB Assembly Drawing</span>
+        
+
+        <span class="b-tiles__desc">
+          
+             You don't need to use a mechanical drawing application to create your PCB assembly drawing. Instead, you can use Draftsman, an easy-to-use feature in Altium Designer. 
+      
+
+        </span>
+      </span>
+      <span class="b-tiles__btn">
+        Read Article
+      </span>
+    </span>
+  </a>
+
+</div>
+</div>
+    <div class="views-row"><div data-history-node-id="594133094" role="article" about="/p/brd-file-viewer-free-download" class="b-tiles__item">
+
+  <a href="/p/brd-file-viewer-free-download" class="b-tiles__link">
+    <span class="b-tiles__preview">
+
+              
+<span class="b-tiles__img">
+         <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="480" height="270" alt="Altium Designer’s Free PCB Viewer Download Allows You to Explore Your BRD Files" loading="lazy" class="lazyload image-style-teasers-image" data-src="/sites/default/files/styles/teasers_image/public/blogs/Altium%20Designer%E2%80%99s%20Free%20PCB%20Viewer%20Download%20Allows%20You%20to%20Explore%20Your%20BRD%20Files-76469.jpg?itok=F5Fu4eDq" typeof="foaf:Image" />
+
+
+ 
+  </span>
+
+      
+      
+    </span>
+
+    <span class="b-tiles__body">
+      <span class="b-tiles__body-in">
+
+        
+        <span class="b-tiles__title">Altium Designer’s Free PCB Viewer Download Allows You to Explore Your BRD Files</span>
+        
+
+        <span class="b-tiles__desc">
+          
+             Today, it almost seems that there are as many PCB design file formats as there are PCB manufacturers. Using a custom file format is advantageous when working with the originating company’s program. However, there are many times when you need the capability to view or use non-native files. This can be a challenge when working with most PCB software companies, but not Altium. Altium offers a free online BRD file viewer powered by the Altium 365 
+      
+
+        </span>
+      </span>
+      <span class="b-tiles__btn">
+        Read Article
+      </span>
+    </span>
+  </a>
+
+</div>
+</div>
+    <div class="views-row"><div data-history-node-id="594133328" role="article" about="/p/pcb-manufacturing-and-impedance-control-how-specify-your-requirements" class="b-tiles__item">
+
+  <a href="/p/pcb-manufacturing-and-impedance-control-how-specify-your-requirements" class="b-tiles__link">
+    <span class="b-tiles__preview">
+
+              
+<span class="b-tiles__img">
+         <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="480" height="321" alt="PCB manufacturing impedance control" loading="lazy" class="lazyload image-style-teasers-image" data-src="/sites/default/files/styles/teasers_image/public/blogs/PCB%20Manufacturing%20and%20Impedance%20Control%3A%20How%20to%20Specify%20Your%20Requirements-76531.jpg?itok=qZWlHwc9" typeof="foaf:Image" />
+
+
+ 
+  </span>
+
+      
+              <span class="b-tiles__mark">
+          <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+           <path
+             d="M8 0L10.7273 4.24616L15.6085 5.52786L12.4129 9.43384L12.7023 14.4721L8 12.64L3.29772 14.4721L3.5871 9.43384L0.391548 5.52786L5.27268 4.24616L8 0Z"
+             fill="#B7A372"/>
+          </svg>
+        </span>
+      
+    </span>
+
+    <span class="b-tiles__body">
+      <span class="b-tiles__body-in">
+
+        
+        <span class="b-tiles__title">Impedance Control: How to Specify Your Requirements for PCB Manufacturers</span>
+        
+
+        <span class="b-tiles__desc">
+          
+             PCB manufacturing houses can easily accommodate impedance control requirements as long as you can specify requirements clearly. Here’s what to tell your fabricator. 
+      
+
+        </span>
+      </span>
+      <span class="b-tiles__btn">
+        Read Article
+      </span>
+    </span>
+  </a>
+
+</div>
+</div>
+    <div class="views-row"><div data-history-node-id="594133098" role="article" about="/p/pcb-gerber-viewer" class="b-tiles__item">
+
+  <a href="/p/pcb-gerber-viewer" class="b-tiles__link">
+    <span class="b-tiles__preview">
+
+              
+<span class="b-tiles__img">
+         <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="480" height="251" alt="Use a PCB Gerber Viewer to Inspect Your Fab Files in Altium 365" loading="lazy" class="lazyload image-style-teasers-image" data-src="/sites/default/files/styles/teasers_image/public/blogs/Use%20a%20PCB%20Gerber%20Viewer%20to%20Inspect%20Your%20Fab%20Files%20in%20Altium%20365-76970.jpg?itok=5h7gx90u" typeof="foaf:Image" />
+
+
+ 
+  </span>
+
+      
+              <span class="b-tiles__mark">
+          <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+           <path
+             d="M8 0L10.7273 4.24616L15.6085 5.52786L12.4129 9.43384L12.7023 14.4721L8 12.64L3.29772 14.4721L3.5871 9.43384L0.391548 5.52786L5.27268 4.24616L8 0Z"
+             fill="#B7A372"/>
+          </svg>
+        </span>
+      
+    </span>
+
+    <span class="b-tiles__body">
+      <span class="b-tiles__body-in">
+
+        
+        <span class="b-tiles__title">Use a PCB Gerber Viewer to Inspect Your Fab Files in Altium 365</span>
+        
+
+        <span class="b-tiles__desc">
+          
+             A PCB Gerber viewer can help you inspect your board as you prepare for manufacturing. Use the features in Altium 365 to compare and share your Gerber files. 
+      
+
+        </span>
+      </span>
+      <span class="b-tiles__btn">
+        Read Article
+      </span>
+    </span>
+  </a>
+
+</div>
+</div>
+    <div class="views-row"><div data-history-node-id="594133600" role="article" about="/p/creating-fabrication-and-assembly-drawings-altium-designer" class="b-tiles__item">
+
+  <a href="/p/creating-fabrication-and-assembly-drawings-altium-designer" class="b-tiles__link">
+    <span class="b-tiles__preview">
+
+              
+<span class="b-tiles__img">
+         <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="480" height="270" alt="Part 4: Creating Fabrication and Assembly Drawings In Altium Designer" loading="lazy" class="lazyload image-style-teasers-image" data-src="/sites/default/files/styles/teasers_image/public/blogs/Part%204%3A%20Creating%20Fabrication%20and%20Assembly%20Drawings%20In%20Altium%20Designer-78707.jpg?itok=ZLGPYvNO" typeof="foaf:Image" />
+
+
+ 
+  </span>
+
+      
+      
+    </span>
+
+    <span class="b-tiles__body">
+      <span class="b-tiles__body-in">
+
+        
+        <span class="b-tiles__title">Part 4: Creating Fabrication and Assembly Drawings In Altium Designer</span>
+        
+
+        <span class="b-tiles__desc">
+          
+             Draftsman is a sophisticated yet easy to use drawing tool that is integrated within Altium Designer, for the creation of fabrication and assembly drawings. Draftsman is a built-in extension that can be installed or removed manually by going to the Extensions and Updates page. You can access the Extensions and Updates page by clicking on the user icon on the top right of the Altium Designer window. If you would like to skip to different chapters 
+      
+
+        </span>
+      </span>
+      <span class="b-tiles__btn">
+        Read Article
+      </span>
+    </span>
+  </a>
+
+</div>
+</div>
+    <div class="views-row"><div data-history-node-id="594133601" role="article" about="/p/setting-your-fabrication-document-draftsman" class="b-tiles__item">
+
+  <a href="/p/setting-your-fabrication-document-draftsman" class="b-tiles__link">
+    <span class="b-tiles__preview">
+
+              
+<span class="b-tiles__img">
+         <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="480" height="270" alt="PCB fabrication document" loading="lazy" class="lazyload image-style-teasers-image" data-src="/sites/default/files/styles/teasers_image/public/blogs/Setting%20Up%20Your%20Fabrication%20Document%20in%20Draftsman-78581.jpg?itok=DSdsucvQ" typeof="foaf:Image" />
+
+
+ 
+  </span>
+
+      
+      
+    </span>
+
+    <span class="b-tiles__body">
+      <span class="b-tiles__body-in">
+
+        
+        <span class="b-tiles__title">Part 1: Setting Up Your Fabrication Document</span>
+        
+
+        <span class="b-tiles__desc">
+          
+             Learn everything you need to know about Documentation for Fabrication and Assembly of printed circuit boards. 
+      
+
+        </span>
+      </span>
+      <span class="b-tiles__btn">
+        Read Article
+      </span>
+    </span>
+  </a>
+
+</div>
+</div>
+    <div class="views-row"><div data-history-node-id="594133603" role="article" about="/p/documenting-your-pcb-assembly" class="b-tiles__item">
+
+  <a href="/p/documenting-your-pcb-assembly" class="b-tiles__link">
+    <span class="b-tiles__preview">
+
+              
+<span class="b-tiles__img">
+         <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="480" height="270" alt="Part 3: Documenting Your PCB for Assembly" loading="lazy" class="lazyload image-style-teasers-image" data-src="/sites/default/files/styles/teasers_image/public/blogs/Part%203%3A%20Documenting%20Your%20PCB%20for%20Assembly-78706.jpg?itok=pZWQpumY" typeof="foaf:Image" />
+
+
+ 
+  </span>
+
+      
+      
+    </span>
+
+    <span class="b-tiles__body">
+      <span class="b-tiles__body-in">
+
+        
+        <span class="b-tiles__title">Part 3: Documenting Your PCB for Assembly</span>
+        
+
+        <span class="b-tiles__desc">
+          
+             Learn everything you need to know to have you board successfully assembled, including assembly drawing requirements, adding notes, and cautionary markings. 
+      
+
+        </span>
+      </span>
+      <span class="b-tiles__btn">
+        Read Article
+      </span>
+    </span>
+  </a>
+
+</div>
+</div>
+
+    </div>
+    
+
+  
+  
+
+  
+  
+</div>
+
+
+</div>
+
+          </div>
+  </div>
+</div>
+
+
+        <div class="b-post__link-back-wrap">
+          <a href="https://resources.altium.com/" class="link-back">Back to Home</a>
+        </div>
+
+      </div>
+
+      <div class="content-wrapper__sidebar sidebar  _style-with-bg _style-sticky">
+        <!-- sidebar_begin -->
+        <div id="block-try-altium-designer" class="block block-block-content block-block-content24db3577-ac88-4d82-9512-b3d1da85ef80 form-sidebar-sticky _style-sticky" data-sticky-top="180" data-stop-sticky-parent=".content-wrapper" data-sticky-stop-bot="240" >
+  
+  
+          
+      <div class="form-sidebar-sticky__header">
+        <h3>Try Altium Designer</h3>
+        
+             <p>Get Altium Designer for <strong> free for 2 weeks</strong></p>
+ 
+      
+
+      </div>
+      <div class="form-sidebar-sticky__form">
+        <div class="form-sidebar-sticky__control"></div>
+
+        <div class="form-sidebar">
+
+          <div class="form-sidebar__head">
+            <h3></h3>
+            
+             <p>Get Altium Designer for <strong> free for 2 weeks</strong></p>
+ 
+      
+
+          </div>
+                      <div id="am-mktoForm-step-1">
+              <form class="am-form am-mktoForm" id="mktoForm_13761">
+                <div class="am-loader"><span></span><span></span><span></span></div>
+              </form>
+            </div>
+                    <div id="am-mktoForm-step-2"
+                              style="display: none;"
+                        >
+            <form class="am-form am-mktoForm" id="mktoForm_13763">
+              <div class="am-loader"><span></span><span></span><span></span></div>
+            </form>
+          </div>
+        </div>
+
+        <script>
+          document.addEventListener("DOMContentLoaded", function() {
+                          MktoForms2.setOptions({formXDPath:"/rs/817-SFW-071/images/marketo-xdframe-relative.html"});
+              MktoForms2.loadForm("//go.altium.com", "817-SFW-071", 13761);
+              new FormMkto({
+                id: 13761,
+                onSuccessHandler: function () {
+                  document.querySelector('#am-mktoForm-step-1').style.display = `none`;
+                  document.querySelector('#am-mktoForm-step-2').style.display = `block`;
+                  return false;
+                }
+              });
+            
+            MktoForms2.setOptions({formXDPath:"/rs/817-SFW-071/images/marketo-xdframe-relative.html"});
+            MktoForms2.loadForm("//go.altium.com", "817-SFW-071", 13763);
+            new FormMkto({
+              id: 13763,
+              onSuccessHandler: function (form) {
+                jQuery.cookie("altium_thank_you_referer", "node:594133440", { expires : 1, path: '/' });
+                var isStudent = form && form.student && form.student.trim().toLowerCase() === 'yes';
+                location.href = isStudent ? '/free-trial/thank-you/student' : '/free-trial/thank-you';
+
+                return false;
+              }
+            });
+          });
+        </script>
+      </div>
+      </div>
+
+        <!-- sidebar_end -->
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  </div>
+
+  </div>
+
+
+              <div >
+            <div class="paragraph block-media paragraph--type--content-banner paragraph--view-mode--default" data-content-banner style="display:none;">
+              <div class="block-media__inner">
+          <div class="block-media__desc">
+            <div class="block-media__logo">
+              
+             <article class="media media--type-icon media--view-mode-default">
+  
+      
+         <img src="/sites/default/files/2022-12/logo-a365.svg" alt="Altium 365" loading="lazy" typeof="foaf:Image" />
+
+ 
+  
+  </article>
+ 
+      
+
+            </div>
+            <div class="block-media__text">
+              <h5>
+             Manufacturing Made Easy 
+      
+</h5>
+              
+             <p>Send your product to manufacturing in a click without any email threads or confusion.</p>
+ 
+      
+
+            </div>
+          </div>
+                      <div class="block-media__btn-wrap">
+              <a class="btn btn_style-blue btn_size-sm" href="https://www.altium.com/altium-365/manufacturing?promo_name=tag-design-documentation&amp;promo_position=resources-mid-content&amp;promo_creative=en-learn-more-1641&amp;TrackingId=OM21">Learn More</a>
+            </div>
+                  </div>
+          </div>
+  
+            <div class="paragraph block-media paragraph--type--content-banner paragraph--view-mode--default" data-content-banner style="display:none;">
+              <div class="block-media__inner">
+          <div class="block-media__desc">
+            <div class="block-media__logo">
+              
+             <article class="media media--type-icon media--view-mode-default">
+  
+      
+         <img src="/sites/default/files/2022-08/logo-altium-d.svg" alt="logo-altium" loading="lazy" typeof="foaf:Image" />
+
+ 
+  
+  </article>
+ 
+      
+
+            </div>
+            <div class="block-media__text">
+              <h5>
+             Professional PCB Drawings in Minutes 
+      
+</h5>
+              
+             <p>Create and update documentation as you design.</p>
+ 
+      
+
+            </div>
+          </div>
+                      <div class="block-media__btn-wrap">
+              <a class="btn btn_style-blue btn_size-sm" href="https://www.altium.com/altium-designer/features/draftsman?promo_name=tag-design-documentation&amp;promo_position=resources-mid-content&amp;promo_creative=en-learn-more-1642&amp;TrackingId=OM21">Learn More</a>
+            </div>
+                  </div>
+          </div>
+  
+            <div class="paragraph block-media paragraph--type--content-banner paragraph--view-mode--default" data-content-banner style="display:none;">
+              <div class="block-media__inner">
+          <div class="block-media__desc">
+            <div class="block-media__logo">
+              
+             <article class="media media--type-icon media--view-mode-default">
+  
+      
+         <img src="/sites/default/files/2022-08/logo-altium-d.svg" alt="logo-altium" loading="lazy" typeof="foaf:Image" />
+
+ 
+  
+  </article>
+ 
+      
+
+            </div>
+            <div class="block-media__text">
+              <h5>
+             Easy, Powerful, Modern 
+      
+</h5>
+              
+             <p>The world’s most trusted PCB design system.</p>
+ 
+      
+
+            </div>
+          </div>
+                      <div class="block-media__btn-wrap">
+              <a class="btn btn_style-blue btn_size-sm" href="https://www.altium.com/altium-designer/?promo_name=tag-altium-designer&amp;promo_position=resources-mid-content&amp;promo_creative=en-explore-solutions-1618&amp;TrackingId=OM21">Explore Solutions</a>
+            </div>
+                  </div>
+          </div>
+  
+            <div class="paragraph block-media paragraph--type--content-banner paragraph--view-mode--default" data-content-banner style="display:none;">
+              <div class="block-media__inner">
+          <div class="block-media__desc">
+            <div class="block-media__logo">
+              
+             <article class="media media--type-icon media--view-mode-default">
+  
+      
+         <img src="/sites/default/files/2022-12/logo-a365.svg" alt="Altium 365" loading="lazy" typeof="foaf:Image" />
+
+ 
+  
+  </article>
+ 
+      
+
+            </div>
+            <div class="block-media__text">
+              <h5>
+             Manufacturing Made Easy 
+      
+</h5>
+              
+             <p>Send your product to manufacturing in a click without any email threads or confusion.</p>
+ 
+      
+
+            </div>
+          </div>
+                      <div class="block-media__btn-wrap">
+              <a class="btn btn_style-blue btn_size-sm" href="https://www.altium.com/altium-365/manufacturing?promo_name=tag-pcb-manufacturing&amp;promo_position=resources-mid-content&amp;promo_creative=en-learn-more-1767&amp;TrackingId=OM21">Learn More</a>
+            </div>
+                  </div>
+          </div>
+  
+  </div>
+
+      
+    </div>
+  </div>
+  <link href="https://cdn-shared.altium.com/production/owned-media/public/css/index.css?t=1677015490" rel="stylesheet" type="text/css">
+  <script src="https://cdn-shared.altium.com/production/owned-media/public/js/index.bundle.js?t=1677015490"></script>
+  <script>
+    new window.OwnedMedia({
+      selector: '.s-header',
+      position: 'append',
+      excludePageBySelector: '',
+      excludePageByUrl: '/company,/all-promotions,/circuitstudio,/viewer'
+    });
+  </script>
+</div>
+<div class="modal modal_zoom-screen fade" id="modal-zoom-screen-one" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal__dialog modal__dialog_v-centered">
+    <div class="modal__content">
+      <button type="button" class="modal__close" data-dismiss="modal" aria-hidden="true"></button>
+      <div class="modal__screen">
+        <div class="modal__screen__img">
+          <div class="modal__screen__img-wrap"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer-v2 " id="altium-navigation-footer"></div>
+<script src="https://cdn-shared.altium.com/production/navigation_new/app/dist/footer.js"></script>
+
+
+  </div>
+
+    
+    <script src="/sites/default/files/js/js_euOzOxjhc0MozlsWtNE9KTX_iPoYi6HZBLSlzcVEEuI.js"></script>
+<script src="https://static.addtoany.com/menu/page.js" async></script>
+<script src="/sites/default/files/js/js_xcOtXkZcaGlaADHdZ5UdfQ-ziHBrdzLOzQPYkBaF4-Q.js"></script>
+<script src="https://cdn-shared.altium.com/production/altium-all-pages/dist/main.js"></script>
+<script src="/sites/default/files/js/js_-1Z5awiMaRMJNPr24zMkBpJYAKqfl_zSnIY66Ir75Hs.js"></script>
+<script src="https://cdn-shared.altium.com/production/altium-all-pages/dist/components/bCountdown/bCountdown.min.js"></script>
+<script src="/sites/default/files/js/js_DU3uTe1o5i3iTlShCQMb6Lso9hLubT0-s9K-gvNe7I8.js"></script>
+<script src="//www.altium.com/altium-privacy-bar/public/js/index.bundle.js"></script>
+<script src="/sites/default/files/js/js_0naHxRE1H_JVH2bK9kt6VmCe0204cE5PqESwlqVog5U.js"></script>
+<script src="https://cdn-shared.altium.com/production/navigation_new/app/dist_prod_server_html/header.js" rel="preload"></script>
+<script src="/sites/default/files/js/js_ItejS_JPhJWdDzKxm4KJ6yD6iE8GBJOjeYfQtvM_UWI.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.min.js"></script>
+<script src="/sites/default/files/js/js_DC-IOolHK842S4XKYMIZA-F3svpl4Jt6ytsTBvylwkc.js"></script>
+
+    <script type="text/javascript" src="https://cdn-shared.altium.com/production/altium-live-event/live.js"></script>
+
+    <script src="https://cdn-shared.altium.com/production/drift/driftChat.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        new window.DriftChat({
+          hideDefaultDriftChatBtn: false,
+        });
+      });
+    </script>
+  </body>
+</html>

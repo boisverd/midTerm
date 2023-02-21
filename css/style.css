@@ -1,0 +1,219 @@
+/* created on January 24, 2023 */
+/* Universal selector: '*' */
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus { border:2px dotted #888888;}
+
+.orangegrad{
+            background:orange;
+            background:linear-gradient(top,#fb0,#f50);
+            background:-moz-linear-gradient(top,#fb0,#f50);
+            background: -webkit-linear-gradient(top,#fb0,#f50);
+            background: -o-linear-gradient(top,#fb0,#f50);
+            background: -ms-linear-gradient(top,#fb0,#f50);
+        }
+.yellowred{
+            background:yellow;
+            background:linear-gradient(top,red,yellow);
+            background:-moz-linear-gradient(top,red,yellow);
+            background: -webkit-linear-gradient(top,red,yellow);
+            background: -o-linear-gradient(top,red,yellow);
+            background: -ms-linear-gradient(top,red,yellow);
+        }
+.blueyellowgreen{
+    background:blue;
+    background:linear-gradient(top,blue,yellowgreen);
+    background:-moz-linear-gradient(top,blue,yellowgreen);
+    background: -webkit-linear-gradient(top,blue,yellowgreen);
+    background: -o-linear-gradient(top,blue,yellowgreen);
+    background: -ms-linear-gradient(top,blue,yellowgreen);
+}
+.box{
+    /* margin-bottom: 10px; */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    text-align: center;
+    /* padding: 10px; */
+    /* width: 380px; */
+    /* height: 75px; */
+    /* border: 10px solid #006; */
+    height: 300px;
+    width: 400px;
+}
+.b1{
+    /* -moz-border-radius: 40px; */
+    /* -webkit-border-radius: 40px; */
+    /* border-radius: 40px; */
+    /* width: 300px; */
+    height: 200px;
+    object-fit:fill;
+    /* object-position:initial; */
+   
+}
+.child{
+    border: 5px solid blue;
+    
+}
+
+@media(min-width: 768px){
+    .parent{
+        margin: 1em;
+        justify-content: center;
+        display:flex;
+    }
+}
+#index {
+    background-color: rgb(255, 243, 133);
+}
+#artcolor {
+    background-color: aqua;
+}
+body{
+    /* color: blue; */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    /* background-color: #025E73; */
+    /* background-image: url("../images/pcb3.jpg"); */
+    background-color: white;
+    background-attachment: fixed;
+    background-position: center; 
+    background: url(../images/arduinoParts.jpg);
+
+}
+
+header, footer{
+    /* background-image: url("../images/circuitboardbackground.jpg"); */
+    background-color: #333;
+    color: yellow;
+    height: 100%;
+    text-align: center;
+    /* margin:1em; */
+    padding:1em;
+    border-left: solid 1em yellow;
+    text-align: center;
+    font-family: 'Bebas Neue';
+    font-family: 'Open Sans';
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 7vmax;
+    text-transform: uppercase;
+    border-bottom: solid 1px yellow;
+    line-height: 7.5vmax;
+}
+
+h2{
+
+     font-family: 'Bebas Neue', cursive;
+    font-size: 3em;
+    text-transform: uppercase;
+    /* font-style: italic; */
+    text-align: center;
+    font-style: italic;
+    color:black;
+}
+/* specificity */
+header h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    text-transform: capitalize;
+    color: #eee;
+}
+
+nav{
+    background-color: #eee;
+    padding: 1em 2em;
+    text-align: center;
+}
+a:link{
+    color: #000;
+    background-color: #eee;
+    display: inline-block;
+}
+a:visited{
+    color: #333;
+    text-decoration: none;
+}
+a:hover{
+    color:#eee;
+    background-color: #333;
+}
+a:active{
+    color:#eee;
+    background-color: crimson;
+}
+article{
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1em;
+}
+article h2{
+    text-align: center;
+}
+figure{
+    margin-bottom: 1em;
+}
+
+figure img{
+    width: 100%;
+}
+
+figcaption{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: .8em;
+    font-style: italic;
+    text-align: center;
+}
+
+img{
+    width:100%;
+}
+
+p{  
+    text-align: justify;
+    margin-bottom: 1em;
+    line-height: 1.4em;
+}
+a{
+    font-size: 1.6em;
+}
+nav a:link{color:black;}
+nav a:visited{color: blue;}
+nav a:hover{color:white;
+        background: black;            
+}
+nav a:active{color:yellow;}
+
+.orangegrad{
+    background:orange;
+    background:linear-gradient(top,#fb0,#f50);
+    background:-moz-linear-gradient(top,#fb0,#f50);
+    background: -webkit-linear-gradient(top,#fb0,#f50);
+    background: -o-linear-gradient(top,#fb0,#f50);
+    background: -ms-linear-gradient(top,#fb0,#f50);
+}
+
+.pullq{
+    font-size: 2em;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    border-left: solid 30px #333;
+    padding: .5em 1em;
+    background: url(../images/pcb1.jpg)
+}
+.pullq::before{
+    content:'“'
+}
+.pullq::after{
+    content:'”'
+}
+.twocols{
+    column-count: 2;
+}
